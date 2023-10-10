@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>My Page</title>
+     <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file for styling -->
+</head>
+
+<body>
+     <!-- Header -->
+     <header>
+          <h1>About me</h1>
+          <p>Welcome to my profile</p>
+     </header>
+
+     <!-- Navigation Menu -->
+     <nav>
+          <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Blog</a></li>
+               <li><a href="#">Contact</a></li>
+          </ul>
+     </nav>
+
+     <!-- Main Content -->
+     <main>
+          <!-- Blog Post 1 -->
+          <article class="blog-post">
+               <h2>Post Title 1</h2>
+               <p class="meta">Posted on <span class="date">October 10, 2023</span> by <span class="author">John
+                         Doe</span></p>
+               <p>it is just for text dolor sit amet, consectetur adipiscing elit. Nulla convallis libero vitae cursus.
+               </p>
+               <a href="#" class="read-more">Read more</a>
+          </article>
+
+          <!-- Blog Post 2 -->
+          <article class="blog-post">
+               <h2>Post Title 2</h2>
+               <p class="meta">Posted on <span class="date">October 15, 2023</span> by <span class="author">Jane
+                         Smith</span></p>
+               <p>Aliquam erat volutpat. Morbi in ligula in metus malesuada rhoncus.</p>
+               <a href="#" class="read-more">Read more</a>
+          </article>
+
+          <!-- Add more blog posts here -->
+     </main>
+
+     <!-- Sidebar -->
+     <aside>
+          <div class="widget">
+               <h3>Categories</h3>
+               <ul>
+                    <li><a href="#">Category 1</a></li>
+                    <li><a href="#">Category 2</a></li>
+                    <li><a href="#">Category 3</a></li>
+               </ul>
+          </div>
+          <!-- Add more widgets (e.g., recent posts, tags, etc.) here -->
+     </aside>
+
+     <!-- Footer -->
+     <footer>
+          <p>&copy;Designed by virat</p>
+     </footer>
+</body>
+
+</html>
+/* Reset some default styles for better consistency */
+<style>
+     * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+
+     /* Basic styling for the body */
+     body {
+          font-family: Arial, sans-serif;
+          background-color: #f7f7f7;
+          color: #333;
+     }
+
+     /* Header styling */
+     header {
+          background-color: #333;
+          color: greenyellow;
+          text-align: center;
+          padding: 20px 0;
+     }
+
+     /* Navigation menu styling */
+     nav ul {
+          list-style: none;
+          text-align: center;
+     }
+
+     nav li {
+          display: inline;
+          margin: 0 20px;
+     }
+
+     nav a {
+          text-decoration: none;
+          color: #333;
+          font-weight: bold;
+     }
+
+     /* Main content styling */
+     main {
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          background-color: brown;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     }
+
+     /* Blog post styling */
+     .blog-post {
+          margin-bottom: 30px;
+     }
+
+     .blog-post h2 {
+          font-size: 24px;
+     }
+
+     .blog-post .meta {
+          font-style: italic;
+          color: #888;
+          margin-bottom: 10px;
+     }
+
+     .blog-post .date {
+          color: #333;
+     }
+
+     .blog-post .author {
+          color: #007bff;
+     }
+
+     .blog-post p {
+          line-height: 1.5;
+     }
+
+     .read-more {
+          color: #007bff;
+          text-decoration: none;
+          font-weight: bold;
+     }
+
+     .read-more:hover {
+          text-decoration: underline;
+     }
+
+     /* Sidebar styling */
+     aside {
+          width: 30%;
+          float: right;
+          background-color: brown;
+          padding: 20px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     }
+
+     .widget h3 {
+          font-size: 18px;
+          margin-bottom: 10px;
+     }
+
+     .widget ul {
+          list-style: none;
+     }
+
+     .widget li {
+          margin-bottom: 10px;
+     }
+
+     /* Footer styling */
+     footer {
+          text-align: center;
+          padding: 10px 0;
+          background-color: #333;
+          color: #fff;
+          font-size: 14px;
+     }
+
+     /* Responsive styling for smaller screens */
+     @media (max-width: 768px) {
+          main {
+               width: 100%;
+               padding: 10px;
+          }
+
+          aside {
+               width: 100%;
+               float: none;
+               margin-top: 20px;
+          }
+     }
+
+     body {
+          background-color: brown;
+     }
+</style>
